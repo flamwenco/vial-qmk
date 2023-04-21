@@ -13,3 +13,10 @@ ifeq ($(strip $(MCU)), atmega32u4)
     KEY_OVERRIDE_ENABLE = no
     MAGIC_ENABLE = no
 endif
+
+VIAL_INSECURE = yes
+
+RGB_MATRIX_ENABLE = yes
+RBG_MATRIX_DRIVER = WS2812
+ENCODER_ENABLE = yes
+ENCODER_MAP_ENABLE = yes
